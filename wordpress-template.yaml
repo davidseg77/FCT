@@ -21,7 +21,7 @@ parameters:
 
   - name: SOURCE_REPOSITORY_URL
     description: La URL en la que se encuentra la aplicación Wordpress
-    value: https://github.com/DanielPG25/openshift-wordpress.git
+    value: https://github.com/davidseg77/Wordpress.git
     required: true
 
   - name: SOURCE_REPOSITORY_REF
