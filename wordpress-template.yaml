@@ -21,7 +21,7 @@ parameters:
 
   - name: SOURCE_REPOSITORY_URL
     description: La URL en la que se encuentra la aplicación Wordpress
-    value: https://github.com/davidseg77/Wordpress.git
+    value: https://github.com/davidseg77/openshift-wordpress
     required: true
 
   - name: SOURCE_REPOSITORY_REF
@@ -33,7 +33,7 @@ parameters:
   - name: CONTEXT_DIR
     description: >
       La ruta relativa de la aplicación en el caso de no estar usando el directorio raíz.
-    value: Wordpress
+    value: wordpress
 
   - name: GITHUB_WEBHOOK_SECRET
     description: Una cadena secreta que se usará a la hora de configurar el webhook de Github
